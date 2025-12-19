@@ -33,6 +33,25 @@ nav{
     justify-content: center;
     text-align: center;
 }
+.nav{
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #152868;
+}
+nav .active{
+    background-color: hsl(180, 1%, 20%);
+    font-weight: bold;
+}
+nav ul li a{
+    padding: 15px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+nav ul li a:hover{
+    background-color: hsl(180, 1%, 20%);
+    color: #ffffff;
+}
 /* Style pour les éléments de la barre de navigation */
 li a {
     color: rgb(212, 213, 214);
