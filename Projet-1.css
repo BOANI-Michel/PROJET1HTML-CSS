@@ -3,72 +3,47 @@ body{
     background-color: #1f3a32;
     font-family: general-sans, sans-serif;
 }
-.hero{
-    min-height: 100vh;
+/* navigation */
+.navigation{
+    padding: 30px 60px;
+}
+.navigation ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 40px;
-    text-align: center;
+    gap: 30px;
+    list-style: none;
 }
-.pa{
-    text-align: center;
-    margin: auto;
-}
-.hero h1{
-    font-size: 72px;
-    font-weight: 700;
-    color: #8fe0c4;
-    /* line-height: 1.05; */
-} 
-.hero .name{
-    font-weight: 800;
-}
-/* STYLISER LA BARRE DE NAVIGATION */
-nav{
-    background-color:  hsl(180, 1%, 28%);
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-.nav{
-    padding: 10px;
-    border-radius: 50px;
+.navigation li{
+    color: #cdebe3;
     cursor: pointer;
-    color: #152868;
 }
-nav .active{
-    background-color: hsl(180, 1%, 20%);
-    font-weight: bold;
+/* bouton pour marquer(work) */
+.navigation .marqué{
+    background-color: #2f5a4f;
+    padding: 10px 20px;
+    /* max-width: 999px; */
+    border-radius: 999px;
 }
-nav ul li a{
-    padding: 15px;
-    border-radius: 50px;
-    transition: all 0.5s ease-in-out;
+/* TITRE */
+.hero{
+    padding: 100px;
 }
-nav ul li a:hover{
-    background-color: hsl(180, 1%, 20%);
-    color: #ffffff;
+/* style du gros titre */
+.hero h1{
+    font-size: 64px;
+    color: #171d19;
 }
-/* Style pour les éléments de la barre de navigation */
-li a {
-    color: rgb(212, 213, 214);
-    text-decoration: none;
-    transition: all 0.5s ease-in-out;
-    justify-content: center;
-    align-items: center;
+/* styliser le texte en dessous */
+.hero p{
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: aqua;
 }
-/* Style pour les éléments de la liste */
-ul li{
-    display: inline-block;
-    margin: 0 15px;
-}
-/* Style pour les liens de la barre de navigation au survol */
-li a:hover{
-    color: turquoise;
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 100px;
+    text-align: center;
 }
 .inprogress{
     min-height: 100vh;
@@ -99,6 +74,12 @@ li a:hover{
 }
 .table-footer{
     justify-content: end;
+    /* border-collapse: separate; */
+    border-spacing: 40px 50px;
+}
+.td, th {
+    /* padding: 15px 25px; */
+    min-width: 80px;
 }
 .grid-container {
     display: grid;
@@ -107,7 +88,7 @@ li a:hover{
     padding: 20px;
 }
 .image1{
-    background: #171d19;
+    background: #e0dfdf;
     border-radius: 12px;
     padding: 20px;
     display: flex;
