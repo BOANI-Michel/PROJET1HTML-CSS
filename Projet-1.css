@@ -3,29 +3,35 @@ body{
     background-color: #1f3a32;
     font-family: general-sans, sans-serif;
 }
-/* navigation */
-.navigation{
-    padding: 30px 60px;
+.container{
+    border: 1px solid #555;
+    padding: 12px 24px;
+    border-radius: 30px;
+    position: fixed;
+    top: 10px; /*distance depuis le haut*/
+    left: 50%; /*CENTRER DE MANIèRE HORIZONTALE*/
+    transform: translateX(-50%);
+    border: 1px solid #e21d1d; /* Couleur de l'encadrement*/
+
 }
-.navigation ul{
+/* lIENS*/
+.container ul{
     display: flex;
-    gap: 30px;
+    gap: 24px;
     list-style: none;
+    margin: 0s;
+    padding: 0;
 }
-.navigation li{
-    color: #cdebe3;
-    cursor: pointer;
+.container a{
+    text-decoration: none;
+    font-size: 14px;
+    color: aquamarine;
 }
-/* bouton pour marquer(work) */
-.navigation .marqué{
-    background-color: #2f5a4f;
-    padding: 10px 20px;
-    /* max-width: 999px; */
-    border-radius: 999px;
-}
+
 /* TITRE */
 .hero{
-    padding: 100px;
+    padding: 10px;
+    text-align: center;
 }
 /* style du gros titre */
 .hero h1{
@@ -38,12 +44,6 @@ body{
     font-size: 18px;
     line-height: 1.6;
     color: aqua;
-}
-.container{
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 100px;
-    text-align: center;
 }
 .inprogress{
     min-height: 100vh;
