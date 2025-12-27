@@ -13,8 +13,8 @@ body{
     left: 50%; /*CENTRER DE MANIèRE HORIZONTALE*/
     transform: translateX(-50%);
     border: 1px solid white; /* Couleur de l'encadrement*/
-    width: 30%;
-    padding-left: 100px;
+    width: 30%; /*la largeur de la barre de navigation*/
+    padding-left: 100px; /*espace entre work et la barre de navigation*/
 
 }
 /* lIENS*/
@@ -87,7 +87,7 @@ body{
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 2fr ;
     gap: 20px;
     padding: 20px;
 }
