@@ -191,3 +191,9 @@ body{
 .flex{
     display: flex;
 }
+
+@media screen and (min-width:300px){
+    body{
+        background-color: rgba(224, 222, 228, 0.795);
+    }
+}
